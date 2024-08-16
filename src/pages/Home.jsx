@@ -14,7 +14,7 @@ const Home = () => {
 
   useEffect(() => {
     setIsLoading(true);
-    fetch("http://localhost:3000/api/v1/jobs")
+    fetch("https://cmcserver-geethikas-projects-ec00e83f.vercel.app/api/v1/jobs")
       .then((res) => res.json())
       .then((data) => {
         setJobs(data);

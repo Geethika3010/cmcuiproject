@@ -32,7 +32,7 @@ const Login = () => {
         // posting
         try {
             const response = await axios.post(
-                "http://localhost:3000/api/v1/auth/login",
+                "https://cmcserver-geethikas-projects-ec00e83f.vercel.app/api/v1/auth/login",
                 data,
                 {
                     withCredentials: true,

@@ -9,7 +9,7 @@ const Admin = () => {
         queryKey: ["admin_info"],
         queryFn: () =>
             getAllHandler(
-                `http://localhost:3000/api/v1/admin/info`
+                `https://cmcserver-geethikas-projects-ec00e83f.vercel.app/api/v1/admin/info`
             ),
     });
 
