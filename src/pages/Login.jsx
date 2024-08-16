@@ -61,9 +61,9 @@ const Login = () => {
     return (
       <Wrapper>
         <div className="container">
-          <div>
-            <img src={loginpage} alt="Login Page" className="login-image" />
-          </div>
+          {/* <div>
+            <img src={photo} alt="Login Page" className="login-image" />
+          </div> */}
           <div className="loginform" style={{padding:"1.5rem",width:'50%'}}>
             <div className="flex justify-center">
               <Logo />
@@ -124,9 +124,9 @@ const Login = () => {
               </p>
             </div>
           </div>
-          <div className="portalImage">
+          {/* <div className="portalImage">
             <img src={photo} alt="job portal image" />
-          </div>
+          </div> */}
         </div>
       </Wrapper>
     );
@@ -134,24 +134,20 @@ const Login = () => {
 
 const Wrapper = styled.div`
 width: 100%;
-    min-height: 100vh;
-    background: #f9faff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px 0;
-    .container {
-        background: var(--color-white);
-        max-width: 70%;
-        width: 100%;
-        border-radius: 4px;
-        position: absolute;
-        transition: all 0.3s ease;
-        display: flex;
-        justify-content: center;
-        flex-direction:row;
-        
-    }
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0; /* Remove padding from the wrapper */
+.container {
+  background: var(--color-white);
+  max-width: 100%;
+  width: 100%;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
     .portalImage{
         width:50%;
         img{
@@ -162,8 +158,13 @@ width: 100%;
             display: block;
         }
     }
-    .loginform{
-        width:500px
+    .loginform {
+      padding: 1.5rem;
+      width: 100%; /* Make the login form take full width */
+      max-width: 500px; /* Max width of the login form */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for better visibility */
+      background: var(--color-white); /* Ensure background is set */
+      margin: 0 auto; /* Center the form horizontally */
     }
     h1 {
         margin-top: 20px;
