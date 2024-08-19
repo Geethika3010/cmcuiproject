@@ -109,10 +109,10 @@ const Wrapper = styled.section`
         border-spacing: 0;
         width: 100%;
         border: 1px solid #ddd;
-        border-radius: 8px;
+        border-radius: 20px;
     }
     .table thead {
-        background-color: #247BF7;
+        background-color: #000;
         color: var(--color-white);
         font-size: 14px;
         letter-spacing: 1px;

@@ -10,7 +10,7 @@ const Footer = () => {
               <div className="mb-10 w-full">
                 <a href="/#" className="mb-6 inline-block max-w-[160px]">
                   <img
-                    src="/src/assets/media/cwc.png"
+                    src="/src/assets/media/LandingPage/cwc.png"
                     alt="logo"
                     className="max-w-full dark:hidden"
                   />
