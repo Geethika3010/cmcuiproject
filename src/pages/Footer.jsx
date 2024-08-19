@@ -85,7 +85,7 @@ const Footer = () => {
                 </h4>
                 <div className="mb-6 flex items-center">
                   <a
-                    href="javascript:void(0)"
+                    href="https://www.facebook.com/share/unTmCdCkQ8pBBPDH/?mibextid=qi2Omg"
                     className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4"
                   >
                     <svg
@@ -98,20 +98,13 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="javascript:void(0)"
+                    href="https://www.instagram.com/careermappinconsultancy?igsh=MWYxM2d3NjgwdGdnNg=="
                     className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4"
                   >
-                    <svg
-                      width="16"
-                      height="12"
-                      viewBox="0 0 16 12"
-                      className="fill-current"
-                    >
-                      <path d="M14.2194 2.06654L15.2 0.939335C15.4839 0.634051 15.5613 0.399217 15.5871 0.2818C14.8129 0.704501 14.0903 0.845401 13.6258 0.845401H13.4452L13.3419 0.751468C12.7226 0.258317 11.9484 0 11.1226 0C9.31613 0 7.89677 1.36204 7.89677 2.93542C7.89677 3.02935 7.89677 3.17025 7.92258 3.26419L8 3.73386L7.45806 3.71037C4.15484 3.61644 1.44516 1.03327 1.00645 0.587084C0.283871 1.76125 0.696774 2.88845 1.13548 3.59296L2.0129 4.90802L0.619355 4.20352C0.645161 5.18982 1.05806 5.96477 1.85806 6.52838L2.55484 6.99804L1.85806 7.25636C2.29677 8.45401 3.27742 8.94716 4 9.13503L4.95484 9.36986L4.05161 9.93346C2.60645 10.8728 0.8 10.8024 0 10.7319C1.62581 11.7652 3.56129 12 4.90323 12C5.90968 12 6.65806 11.9061 6.83871 11.8356C14.0645 10.2857 14.4 4.41487 14.4 3.2407V3.07632L14.5548 2.98239C15.4323 2.23092 15.7935 1.8317 16 1.59687C15.9226 1.62035 15.8194 1.66732 15.7161 1.6908L14.2194 2.06654Z" />
-                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" id="instagram"><rect width="256" height="256" fill="none"></rect><circle cx="128" cy="128" r="40" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"></circle><rect width="184" height="184" x="36" y="36" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" rx="48"></rect><circle cx="180" cy="76" r="8"></circle></svg>
                   </a>
                   <a
-                    href="javascript:void(0)"
+                    href="https://www.youtube.com/@CMCS-y8f"
                     className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4"
                   >
                     <svg
@@ -124,7 +117,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="javascript:void(0)"
+                    href="https://www.linkedin.com/company/career-mapping-consultancy/"
                     className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4"
                   >
                     <svg
@@ -138,7 +131,7 @@ const Footer = () => {
                   </a>
                 </div>
                 <p className="text-base text-body-color dark:text-dark-6">
-                  &copy; 2025 Job Portal
+                  &copy; cmc portal
                 </p>
               </div>
             </div>
