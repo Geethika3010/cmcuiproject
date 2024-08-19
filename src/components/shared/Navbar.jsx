@@ -14,6 +14,9 @@ const Navbar = ({ navbarRef }) => {
                     <NavLink className="nav-item hidden sm:block" to="/dashboard">
                         Dashboard
                     </NavLink>
+                    <NavLink className="nav-item hidden sm:block" to="/contact">
+                        Contact Us
+                    </NavLink>
                     <NavLink className="nav-item" to="/login">
                         <span className="bg-[#1F6141] text-white px-6 py-2 rounded"> Login</span>
                     </NavLink>
