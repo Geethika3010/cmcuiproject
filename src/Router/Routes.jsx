@@ -26,6 +26,7 @@ import { JobContext } from "../context/JobContext";
 import CommonProtectRoute from "../components/shared/CommonProtectRoute";
 import ProtectAdminRoute from "../components/shared/ProtectAdminRoute";
 import RecruiterRoute from "../components/shared/RecruiterRoute";
+import Contact from "../components/Contact";
 
 const router = createBrowserRouter([
     {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
             {
                 index: true,
                 element: <Landing />,
+            },
+            {
+                path: "contact",
+                element: <Contact />, // Add this route for the contact page
             },
             {
                 path: "all-jobs",
