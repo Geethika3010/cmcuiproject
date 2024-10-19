@@ -27,9 +27,6 @@ const Login = () => {
 
     const onSubmit = async (data) => {
         setIsLoading(true);
-        // password: A@1abcde
-
-        // posting
         try {
             const response = await axios.post(
                 "https://cmcserver-geethikas-projects-ec00e83f.vercel.app/api/v1/auth/login",

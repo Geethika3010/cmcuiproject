@@ -9,13 +9,6 @@ import { useForm } from "react-hook-form";
 import axios from "axios";
 import Swal from "sweetalert2";
 
-// import ReactQuill from "react-quill";
-// import "react-quill/dist/quill.snow.css";
-
-// import { DayPicker } from "react-day-picker";
-// import { format } from "date-fns";
-// import "react-day-picker/dist/style.css";
-
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 

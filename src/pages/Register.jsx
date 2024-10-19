@@ -23,7 +23,6 @@ const Register = () => {
     const navigate = useNavigate();
 
     const onSubmit = async (data) => {
-        // password: A@1abcde
         const { username, email, password, confirmPassword } = data;
 
         if (password !== confirmPassword) {
@@ -67,7 +66,7 @@ const Register = () => {
         }, 2000);
 
         return () => {
-            clearInterval(intervalId); // Clear the interval on component unmount or when dependencies change
+            clearInterval(intervalId);
         };
     }, [isPasswordMatched.status]);
 

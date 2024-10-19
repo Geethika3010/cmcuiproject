@@ -13,8 +13,6 @@ dayjs.extend(advancedFormat);
 import { MdAccessTime } from "react-icons/md";
 import Navbar from "../components/shared/Navbar";
 
-// import advancedFormat from "dayjs/plugin/advancedFormat";
-// import dayjs from "dayjs";
 dayjs.extend(advancedFormat);
 
 const Job = () => {

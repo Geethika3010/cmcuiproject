@@ -8,11 +8,6 @@ const PaginationCom = () => {
     const { handleJobFetch, jobs } = useJobContext();
 
     const handlePageClick = (e) => {
-        // const newOffset = (e.selected * itemsPerPage) % items.length;
-        // console.log(
-        //     `User requested page number ${e.selected}, which is offset ${newOffset}`
-        // );
-        // setItemOffset(newOffset);
         handleJobFetch(
             `https://cmcserver-geethikas-projects-ec00e83f.vercel.app/api/v1/jobs?page=${
                 e.selected + 1

@@ -3,11 +3,6 @@ import Wrapper from "../assets/css/wrappers/LandingPage";
 import { Link } from "react-router-dom";
 import photo from "../assets/media/LandingPage/workspace.jpg";
 import Navbar from "../components/shared/Navbar";
-import PopularCategory from "../components/Home Page/PopularCategory";
-import HowWorks from "../components/Home Page/HowWorks";
-import Team from "../components/Home Page/Team";
-import Brands from "../components/Home Page/Brands";
-import Testimonial from "../components/Home Page/Testimonial";
 import SuccessCard from "../components/SuccessCard/SuccessCard";
 import Carousel from 'react-elastic-carousel';
 
@@ -94,11 +89,6 @@ const Landing = () => {
         </Wrapper>
 
         <div>
-          {/* <HowWorks/> */}
-          {/* <PopularCategory/> */}
-          {/* <Team/> */}
-          {/* <Testimonial/> */}
-          {/* <Brands/> */}
           <h1 className="success-stories-heading">Success Stories</h1>
           <div className="success-cards" style={{padding:'2rem 3rem'}}>
             <Carousel breakPoints={breakPoints} style={{padding:"0.5rem 2rem 0.5rem 2rem"}}>
