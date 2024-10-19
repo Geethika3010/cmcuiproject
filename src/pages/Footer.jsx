@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/media/cwc.png";
 
 const Footer = () => {
   return (
@@ -10,14 +11,9 @@ const Footer = () => {
               <div className="mb-10 w-full">
                 <a href="/#" className="mb-6 inline-block max-w-[160px]">
                   <img
-                    src="/src/assets/media/LandingPage/cwc.png"
+                    src={logo}
                     alt="logo"
                     className="max-w-full dark:hidden"
-                  />
-                  <img
-                    src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-white.svg"
-                    alt="logo"
-                    className="max-w-full hidden dark:block"
                   />
                 </a>
                 <p className="mb-7 text-base text-body-color dark:text-dark-6">
